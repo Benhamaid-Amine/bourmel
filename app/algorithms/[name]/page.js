@@ -153,15 +153,15 @@ export default function AlgorithmPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="text-lg font-medium text-gray-800 mb-2">Chiffrement:</h3>
-                <code className="text-gray-700 bg-gray-100 p-2 rounded block overflow-x-auto">
+              <div className="bg-black  p-4 rounded-lg">
+                <h3 className="text-lg font-medium text-white mb-2">Chiffrement:</h3>
+                <code className="text-white/80  p-2 rounded block overflow-x-auto">
                   {algo.Chiffrement}
                 </code>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="text-lg font-medium text-gray-800 mb-2">Déchiffrement:</h3>
-                <code className="text-gray-700 bg-gray-100 p-2 rounded block overflow-x-auto">
+              <div className="bg-black p-4 rounded-lg">
+                <h3 className="text-lg font-medium text-white mb-2">Déchiffrement:</h3>
+                <code className="text-white/80 p-2 rounded block overflow-x-auto">
                   {algo.Dechiffrement}
                 </code>
               </div>
